@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Cristian Soares - DoWhile 2021</title>
+  </head>
+  <body>
+    <main>
+      <div class="faixa"></div>
+      <div class="content">
+        <div class="avatar">
+          <span>
+            <img src="images/build.svg" alt="Rkt" />
+          </span>
+          <img src="http://lorempixel.com/185/185/people/" alt="Eu" />
+        </div>
+        <h1 id="userName"></h1>
+        <a id="userGit" href="https://github.com/criric" target="_blank"
+          ><img src="images/github.svg" alt="Meu Github" /><span id="userLogin"
+            >criric</span
+          ></a
+        >
+        <p>Participante do NLW Heat Origin</p>
+
+        <ul id="socialLinks">
+          <li class="instagram">
+            <a href="https://instagram.com/soarescristian_" target="_blank">
+              <img src="images/insta.svg" alt="Ícone do Instagram" />
+            </a>
+          </li>
+
+          <li class="twitter">
+            <a href="https://twitter.com/criricyt" target="_blank">
+              <img src="images/tt.svg" alt="Ícone do twitter" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+    <script type="text/javascript" src="animation.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector('main'), {
+        max: 7,
+        speed: 300
+      })
+    </script>
+  </body>
+</html>
